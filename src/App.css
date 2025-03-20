@@ -15,12 +15,13 @@ padding-bottom: 10px;
   display: flex ;
   justify-content: space-between;
   padding: 20px;
+  align-items: center;
 }
 .navbar ul{
   display: flex;
   gap: 30px;
   list-style: none;
-  color: white;
+  color: rgb(5, 5, 5);
 
 }
 .loginbtn {
@@ -179,4 +180,82 @@ align-items: center;
 }
 .footer-logo {
 width: 100px;
+}
+
+.movie-detail
+{
+  background: url("./assets/Group 2.png");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.watch-btn{
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+}
+.hd-btn{
+  padding: 7px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.movie-det-card
+{
+  background-color: white;
+  min-height: 400px !important;
+  max-height: 600px;
+  width: 50%;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+}
+.movie-det-img{
+  width: 400px;
+}
+.movie-det-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} 
+.card-det-title{
+  
+}
+.movie-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+.overview{
+  padding-block: 20px;
+}
+
+.trailer-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+
+}
+.video-icon{
+  width: 30px;
+}
+.buttons{
+  display: flex;
+  gap: 20px;
+ 
+  align-items: center;
+  padding-top: 20px;
+}
+.movie-det-content
+{
+  max-width: 70%;
 }
